@@ -1,0 +1,37 @@
+#cajacookies{
+    box-shadow: 0px 0px 5px 5px #808080;
+    background-color: #c1bdba ;
+    color: white;
+    padding: 12px;
+    margin: auto;
+    margin-bottom: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    }
+    #cajacookies button {
+    color: black;
+    }
+    #iniciar {
+    float: right;
+    position: relative;
+    align-content: right;
+    top: -45px;
+    left: -5px;
+    }
+    .btn_nou {
+    padding: .25rem .25rem;
+    border-radius: .25rem;
+    background-color: #3399CC ;
+    color: #fff;
+    vertical-align: middle;
+    transition: background-color .15s ease-in-out;
+    font-size:14px;
+    }
+    .btn_nou:hover, .btn-bootstrap:focus {
+    background-color: #0069d9;
+    }
+    .btn_nou:active {
+    background-color: #0062cc;
+    }
