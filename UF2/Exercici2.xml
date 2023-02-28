@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+    <rss version="2.0">
+        <channel>
+            <title>FAKE NEWS</title>
+            <link>http://127.0.0.1:5500/Exercici2.xml</link>
+            <description>In this channel every single word you read is fake. Don't even trust this paragraph. Ughhh... you never know!</description>
+            <item>
+                <title>Today somebody fell up instead of falling down</title>
+                <link>http://127.0.0.1:5500/Exercici2.xml/fallup</link>
+                <description>No dynamyte involved. We promise.</description>
+            </item>
+        </channel>
+    </rss>
