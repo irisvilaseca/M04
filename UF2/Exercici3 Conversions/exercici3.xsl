@@ -3,7 +3,7 @@
 <xsl:template match="/">
 <html>
 <head>
-	<title>Catàleg</title>
+	<title>Llista de noms de llibres</title>
 </head>
 <body>
 <ol>
