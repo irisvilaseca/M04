@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exercici 8</h1>
+    <h2>Apartat 1</h2>
+    <p>He buscat el XPath //productor i m'ha retornat:</p>
+    <productor xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance">Agencia Estatal de Meteorología - AEMET. Gobierno de España</productor>
+
+    <h2>Apartat 2</h2>
+    <p>He buscat el XPath //@fecha i m'ha mostrat:</p>
+    fecha="2023-03-03"
+    fecha="2023-03-04"
+    fecha="2023-03-05"
+    fecha="2023-03-06"
+    fecha="2023-03-07"
+    fecha="2023-03-08"
+    fecha="2023-03-09"
+    <h2>Apartat 3</h2>
+    <p>He buscat /descendant::dia[1]/prob_precipitacion[1] i m'ha retornat</p>
+    <prob_precipitacion xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" periodo="00-24"/>
+
+    <h2>Apartat 4</h2>
+    <p>He buscat /descendant::dia[last()]/prob_precipitacion[last()] i m'ha mostrat:</p>
+    <prob_precipitacion xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance">15</prob_precipitacion>
+
+    <h2>Apartat 5</h2>
+    <p>He buscat /descendant::dia[last()]/temperatura i m'ha retornat</p>
+    <temperatura xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance">
+        <maxima>23</maxima>
+        <minima>12</minima>
+      </temperatura>
+</body>
+</html>
